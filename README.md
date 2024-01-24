@@ -9,7 +9,7 @@ These two files convert G-code to CAN BUS messages, supporting 6 axis style G-co
 - Python 3
 - python-can
 
-```bash
+```
 $ pip install python-can[serial]
 ```
 
