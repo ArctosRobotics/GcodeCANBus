@@ -48,7 +48,7 @@ gear_ratios = [0.5, 0.5, 1, 1, 1, 1]
 bus = can.interface.Bus(bustype='slcan', channel='/dev/ttyACM0', bitrate=500000)
 ```
 
-Feel free to adapt and use these scripts for your CNC machine setup!
+Feel free to adapt and use these scripts for your robotic arm!
 ```
 
 Make sure to replace the actual paths and details according to your specific setup. This markdown formatting is suitable for a clear and organized display on GitHub.
