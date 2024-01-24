@@ -1,5 +1,4 @@
 
-```markdown
 # G-code to CAN BUS Converter
 
 Watch the demo: https://www.youtube.com/watch?v=CeugYSGpj0s
