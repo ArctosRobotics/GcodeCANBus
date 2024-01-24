@@ -2,6 +2,8 @@
 ```markdown
 # G-code to CAN BUS Converter
 
+Watch the demo: https://www.youtube.com/watch?v=CeugYSGpj0s
+
 These two files convert G-code to CAN BUS messages, supporting 6 axis style G-code for: X, Y, Z, A, B, and C axes.
 
 ## Prerequisites
