@@ -1,4 +1,3 @@
-Certainly! Here is the formatted README.md file:
 
 ```markdown
 # G-code to CAN BUS Converter
