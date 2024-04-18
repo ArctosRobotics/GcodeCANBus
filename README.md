@@ -6,13 +6,10 @@ Watch the demo: https://www.youtube.com/watch?v=CeugYSGpj0s
 These two files convert G-code to CAN BUS messages, supporting 6 axis style G-code for: X, Y, Z, A, B, and C axes.
 
 ## Prerequisites
-
+Before using these scripts, ensure you have the following dependencies installed:
 - Python 3
-- python-can
-
-```
-$ pip install python-can[serial]
-```
+- python-can library (`pip install python-can[serial]`)
+- ttkthemes library (`pip install ttkthemes`)
 
 G-code is converted to follow Makerbase CAN bus message format:
 
@@ -48,7 +45,20 @@ gear_ratios = [0.5, 0.5, 1, 1, 1, 1]
 ```python
 bus = can.interface.Bus(bustype='slcan', channel='/dev/ttyACM0', bitrate=500000)
 ```
+## GUI Application
+A GUI application is provided for easier control and interaction with the scripts. It includes features such as selecting ports, connecting/disconnecting, sending files, and displaying messages.
 
+### Features
+- Refresh Ports: Updates the list of available serial ports.
+- Connect: Connects to the selected port for communication.
+- Disconnect: Disconnects from the currently connected port.
+- Send: Initiates sending of CAN messages.
+- Convert: Converts a G-code file to CAN messages.
+- Stop: Placeholder button for stopping logic.
+- Browse: Opens a file dialog to select files for conversion or sending.
+- Clear Messages: Clears the message display area.
+- Messages Display: Shows status messages and sent/received messages.
+- Field Displays: Shows converted values for each axis (X, Y, Z, A, B, C).
 Feel free to adapt and use these scripts for your robotic arm!
 
 
